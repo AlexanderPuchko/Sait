@@ -1,0 +1,1334 @@
+@font-face {
+font-family: "Regular"; 
+src: url("../fonts/Serifiqo 4F Free Capitals.otf") format("OpenType"); 
+font-style: normal; 
+font-weight: normal; 
+} 
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+  font-family: "Regular"; 
+  src: url("../fonts/Serifiqo 4F Free Capitals.otf") format("OpenType"); 
+  font-style: normal; 
+  font-weight: normal;
+}
+.header{
+  width: 100%;
+  height: 70px;
+}
+.header_line{
+  width: 100%;
+  height: 100%;
+}
+.header_line_color{
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(83,83,83,1) 1%, rgba(0,0,0,1) 10%, rgba(0,0,0,1) 90%, rgba(82,82,82,1) 99%, rgba(255,255,255,1) 100%);
+}
+.header_line_color_content{
+  width: 100%;
+  height: 100%; 
+  background-repeat: no-repeat;
+  display: flex;  
+  justify-content: center;
+  padding: 10px 0 10px 0;
+}
+.header_line_color_content p{
+  font-family: 'Regular', serif;
+  font-weight: 400;
+  font-size: 300%;
+  color: #fff;  
+  padding-right: 15px;
+}
+.header_line_color_content button{
+  display: inline-block;
+  background-color: black;
+  color: #fff; 
+  border: none;
+  padding: 10px 10px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  font-family: 'Regular', serif;
+  font-weight: 400;
+  font-size: 200%;
+  box-shadow: 0 1px #fff;
+}
+.header_line_color_content button:hover{
+  color: black;
+  background-color: #fff;
+}
+
+
+.albums{
+  width: 100%;
+  height: 800px;
+}
+.albums_line{
+  width: 100%;
+  height: 100%;
+}
+.albums_line_color{
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(83,83,83,1) 1%, rgba(0,0,0,1) 10%, rgba(0,0,0,1) 90%, rgba(82,82,82,1) 99%, rgba(255,255,255,1) 100%);
+  padding: 10px 0 0 0;
+}
+.albums_line_color_content{
+  width: auto;
+  height: 100%;
+  padding-top: 85px;
+}
+.albums_line_color_content_music{  
+  width: 800px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+.albums_line_color_content_music iframe{
+  width: 100%;
+  height: 600px;
+}
+
+
+
+.footer{
+  width: 100%;
+  height: 130px;
+}
+.footer_line{
+  width: 100%;
+  height: 100%;
+}
+.footer_line_color{
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(83,83,83,1) 1%, rgba(0,0,0,1) 10%, rgba(0,0,0,1) 90%, rgba(82,82,82,1) 99%, rgba(255,255,255,1) 100%);
+  background-repeat: no-repeat;
+}
+.footer_line_color_content{
+  width: auto;
+  height: auto;
+}
+.footer_line_color_content_sites{
+  width: 150px;
+  height: 50px;
+  display: flex;
+  padding-left: 1400px;
+  padding-top: 55px;
+
+}
+.footer_line_color_content_sites_youtube{
+  width: 25px;
+  height: 25px;
+  background: url(..//img/youtube.png); 
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin-right: 7px;
+}
+.footer_line_color_content_sites_soundcloud{
+  width: 25px;
+  height: 25px;
+  background: url(../img//soundcloud.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin-right: 7px;
+}
+.footer_line_color_content_sites_telegram{
+  width: 25px;
+  height: 25px;
+  background: url(../img//telegram.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin-right: 7px;
+}
+.footer_line_color_content_text{
+  width: 50px;
+  height: 15px;
+  font-size: 50%;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+@media only screen and  (min-width: 1980px) and (max-width: 2700px)
+{
+  .header{
+    width: 100%;
+    height: 70px;
+  }
+  .header_line{
+    width: 100%;
+    height: 100%;
+  }
+  .header_line_color{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(83,83,83,1) 1%, rgba(0,0,0,1) 10%, rgba(0,0,0,1) 90%, rgba(82,82,82,1) 99%, rgba(255,255,255,1) 100%);
+  }
+  .header_line_color_content{
+    width: 100%;
+    height: 100%; 
+    background-repeat: no-repeat;
+    display: flex;  
+    justify-content: center;
+    padding: 10px 0 10px 0;
+  }
+  .header_line_color_content p{
+    font-family: 'Regular', serif;
+    font-weight: 400;
+    font-size: 300%;
+    color: #fff;  
+    padding-right: 15px;
+  }
+  .header_line_color_content button{
+    display: inline-block;
+    background-color: black;
+    color: #fff; 
+    border: none;
+    padding: 10px 10px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    font-family: 'Regular', serif;
+    font-weight: 400;
+    font-size: 200%;
+    box-shadow: 0 1px #fff;
+  }
+  .header_line_color_content button:hover{
+    color: black;
+    background-color: #fff;
+  }
+  
+
+  .albums{
+    width: 100%;
+    height: 800px;
+  }
+  .albums_line{
+    width: 100%;
+    height: 100%;
+  }
+  .albums_line_color{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(83,83,83,1) 1%, rgba(0,0,0,1) 10%, rgba(0,0,0,1) 90%, rgba(82,82,82,1) 99%, rgba(255,255,255,1) 100%);
+    padding: 10px 0 0 0;
+  }
+  .albums_line_color_content{
+    width: auto;
+    height: 100%;
+    padding-top: 85px;
+  }
+  .albums_line_color_content_music{  
+    width: 800px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .albums_line_color_content_music iframe{
+    width: 100%;
+    height: 600px;
+  }
+
+  
+  .footer{
+    width: 100%;
+    height: 130px;
+  }
+  .footer_line{
+    width: 100%;
+    height: 100%;
+  }
+  .footer_line_color{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(83,83,83,1) 1%, rgba(0,0,0,1) 10%, rgba(0,0,0,1) 90%, rgba(82,82,82,1) 99%, rgba(255,255,255,1) 100%);
+    background-repeat: no-repeat;
+  }
+  .footer_line_color_content{
+    width: auto;
+    height: auto;
+  }
+  .footer_line_color_content_sites{
+    width: 150px;
+    height: 50px;
+    display: flex;
+    padding-top: 55px;
+    margin-left: auto;
+    padding-right: 300px;
+  }
+  .footer_line_color_content_sites_youtube{
+    width: 25px;
+    height: 25px;
+    background: url(..//img/youtube.png); 
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-right: 7px;
+  }
+  .footer_line_color_content_sites_soundcloud{
+    width: 25px;
+    height: 25px;
+    background: url(../img//soundcloud.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-right: 7px;
+  }
+  .footer_line_color_content_sites_telegram{
+    width: 25px;
+    height: 25px;
+    background: url(../img//telegram.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-right: 7px;
+  }
+  .footer_line_color_content_text{
+    width: 50px;
+    height: 15px;
+    font-size: 50%;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+
+@media only screen and  (min-width: 1920px) and (max-width: 1980px)
+{
+.header{
+    width: 100%;
+    height: 70px;
+  }
+  .header_line{
+    width: 100%;
+    height: 100%;
+  }
+  .header_line_color{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(83,83,83,1) 1%, rgba(0,0,0,1) 10%, rgba(0,0,0,1) 90%, rgba(82,82,82,1) 99%, rgba(255,255,255,1) 100%);
+  }
+  .header_line_color_content{
+    width: 100%;
+    height: 100%; 
+    background-repeat: no-repeat;
+    display: flex;  
+    justify-content: center;
+    padding: 10px 0 10px 0;
+  }
+  .header_line_color_content p{
+    font-family: 'Regular', serif;
+    font-weight: 400;
+    font-size: 300%;
+    color: #fff;  
+    padding-right: 15px;
+  }
+  .header_line_color_content button{
+    display: inline-block;
+    background-color: black;
+    color: #fff; 
+    border: none;
+    padding: 10px 10px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    font-family: 'Regular', serif;
+    font-weight: 400;
+    font-size: 200%;
+    box-shadow: 0 1px #fff;
+  }
+  .header_line_color_content button:hover{
+    color: black;
+    background-color: #fff;
+  }
+ 
+ 
+  .albums{
+    width: 100%;
+    height: 800px;
+  }
+  .albums_line{
+    width: 100%;
+    height: 100%;
+  }
+  .albums_line_color{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(83,83,83,1) 1%, rgba(0,0,0,1) 10%, rgba(0,0,0,1) 90%, rgba(82,82,82,1) 99%, rgba(255,255,255,1) 100%);
+    padding: 10px 0 0 0;
+  }
+  .albums_line_color_content{
+    width: auto;
+    height: 100%;
+    padding-top: 85px;
+  }
+  .albums_line_color_content_music{  
+    width: 800px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .albums_line_color_content_music iframe{
+    width: 100%;
+    height: 600px;
+  }
+
+
+  .footer{
+    width: 100%;
+    height: 130px;
+  }
+  .footer_line{
+    width: 100%;
+    height: 100%;
+  }
+  .footer_line_color{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(83,83,83,1) 1%, rgba(0,0,0,1) 10%, rgba(0,0,0,1) 90%, rgba(82,82,82,1) 99%, rgba(255,255,255,1) 100%);
+    background-repeat: no-repeat;
+  }
+  .footer_line_color_content{
+    width: auto;
+    height: auto;
+  }
+  .footer_line_color_content_sites{
+    width: 150px;
+    height: 50px;
+    display: flex;
+    padding-top: 55px;
+    margin-left: auto;
+    padding-right: 300px;
+  }
+  .footer_line_color_content_sites_youtube{
+    width: 25px;
+    height: 25px;
+    background: url(..//img/youtube.png); 
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-right: 7px;
+  }
+  .footer_line_color_content_sites_soundcloud{
+    width: 25px;
+    height: 25px;
+    background: url(../img//soundcloud.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-right: 7px;
+  }
+  .footer_line_color_content_sites_telegram{
+    width: 25px;
+    height: 25px;
+    background: url(../img//telegram.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-right: 7px;
+  }
+  .footer_line_color_content_text{
+    width: 50px;
+    height: 15px;
+    font-size: 50%;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+
+
+@media only screen and  (min-width: 1600px) and (max-width: 1920px)
+{
+.header{
+    width: 100%;
+    height: 70px;
+  }
+  .header_line{
+    width: 100%;
+    height: 100%;
+  }
+  .header_line_color{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(83,83,83,1) 1%, rgba(0,0,0,1) 10%, rgba(0,0,0,1) 90%, rgba(82,82,82,1) 99%, rgba(255,255,255,1) 100%);
+  }
+  .header_line_color_content{
+    width: 100%;
+    height: 100%; 
+    background-repeat: no-repeat;
+    display: flex;  
+    justify-content: center;
+    padding: 10px 0 10px 0;
+  }
+  .header_line_color_content p{
+    font-family: 'Regular', serif;
+    font-weight: 400;
+    font-size: 300%;
+    color: #fff;  
+    padding-right: 15px;
+  }
+  .header_line_color_content button{
+    display: inline-block;
+    background-color: black;
+    color: #fff; 
+    border: none;
+    padding: 10px 10px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    font-family: 'Regular', serif;
+    font-weight: 400;
+    font-size: 200%;
+    box-shadow: 0 1px #fff;
+  }
+  .header_line_color_content button:hover{
+    color: black;
+    background-color: #fff;
+  }
+  
+  
+
+
+  .albums{
+    width: 100%;
+    height: 800px;
+  }
+  .albums_line{
+    width: 100%;
+    height: 100%;
+  }
+  .albums_line_color{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(83,83,83,1) 1%, rgba(0,0,0,1) 10%, rgba(0,0,0,1) 90%, rgba(82,82,82,1) 99%, rgba(255,255,255,1) 100%);
+    padding: 10px 0 0 0;
+  }
+  .albums_line_color_content{
+    width: auto;
+    height: 100%;
+    padding-top: 85px;
+  }
+  .albums_line_color_content_music{  
+    width: 800px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .albums_line_color_content_music iframe{
+    width: 100%;
+    height: 600px;
+  }
+
+
+
+
+  .footer{
+    width: 100%;
+    height: 130px;
+  }
+  .footer_line{
+    width: 100%;
+    height: 100%;
+  }
+  .footer_line_color{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(83,83,83,1) 1%, rgba(0,0,0,1) 10%, rgba(0,0,0,1) 90%, rgba(82,82,82,1) 99%, rgba(255,255,255,1) 100%);
+    background-repeat: no-repeat;
+  }
+  .footer_line_color_content{
+    width: auto;
+    height: auto;
+  }
+  .footer_line_color_content_sites{
+    width: 150px;
+    height: 50px;
+    display: flex;
+    padding-top: 55px;
+    margin-left: auto;
+    margin-right: 300px;
+  }
+  .footer_line_color_content_sites_youtube{
+    width: 25px;
+    height: 25px;
+    background: url(..//img/youtube.png); 
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-right: 7px;
+  }
+  .footer_line_color_content_sites_soundcloud{
+    width: 25px;
+    height: 25px;
+    background: url(../img//soundcloud.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-right: 7px;
+  }
+  .footer_line_color_content_sites_telegram{
+    width: 25px;
+    height: 25px;
+    background: url(../img//telegram.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-right: 7px;
+  }
+  .footer_line_color_content_text{
+    width: 50px;
+    height: 15px;
+    font-size: 60%;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+}
+
+
+
+@media only screen and  (min-width: 1280px) and (max-width: 1600px)
+{
+.header{
+    width: 100%;
+    height: 70px;
+  }
+  .header_line{
+    width: 100%;
+    height: 100%;
+  }
+  .header_line_color{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(83,83,83,1) 1%, rgba(0,0,0,1) 10%, rgba(0,0,0,1) 90%, rgba(82,82,82,1) 99%, rgba(255,255,255,1) 100%);
+  }
+  .header_line_color_content{
+    width: 100%;
+    height: 100%; 
+    background-repeat: no-repeat;
+    display: flex;  
+    justify-content: center;
+    padding: 10px 0 10px 0;
+  }
+  .header_line_color_content p{
+    font-family: 'Regular', serif;
+    font-weight: 400;
+    font-size: 300%;
+    color: #fff;  
+    padding-right: 15px;
+  }
+  .header_line_color_content button{
+    display: inline-block;
+    background-color: black;
+    color: #fff; 
+    border: none;
+    padding: 10px 10px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    font-family: 'Regular', serif;
+    font-weight: 400;
+    font-size: 200%;
+    box-shadow: 0 1px #fff;
+  }
+  .header_line_color_content button:hover{
+    color: black;
+    background-color: #fff;
+  }
+  
+
+
+  .albums{
+    width: 100%;
+    height: 800px;
+  }
+  .albums_line{
+    width: 100%;
+    height: 100%;
+  }
+  .albums_line_color{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(83,83,83,1) 1%, rgba(0,0,0,1) 10%, rgba(0,0,0,1) 90%, rgba(82,82,82,1) 99%, rgba(255,255,255,1) 100%);
+    padding: 10px 0 0 0;
+  }
+  .albums_line_color_content{
+    width: auto;
+    height: 100%;
+    padding-top: 85px;
+  }
+  .albums_line_color_content_music{  
+    width: 800px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .albums_line_color_content_music iframe{
+    width: 100%;
+    height: 600px;
+  }
+
+
+  
+  .footer{
+    width: 100%;
+    height: 130px;
+  }
+  .footer_line{
+    width: 100%;
+    height: 100%;
+  }
+  .footer_line_color{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(83,83,83,1) 1%, rgba(0,0,0,1) 10%, rgba(0,0,0,1) 90%, rgba(82,82,82,1) 99%, rgba(255,255,255,1) 100%);
+    background-repeat: no-repeat;
+  }
+  .footer_line_color_content{
+    width: auto;
+    height: auto;
+
+  }
+  .footer_line_color_content_sites{
+    width: 100px;
+    height: 50px;
+    display: flex;
+    padding-top: 55px;
+    margin-left: auto;
+    margin-left: -350px;
+  }
+  .footer_line_color_content_sites_youtube{
+    width: 25px;
+    height: 25px;
+    background: url(..//img/youtube.png); 
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-right: 7px;
+  }
+  .footer_line_color_content_sites_soundcloud{
+    width: 25px;
+    height: 25px;
+    background: url(../img//soundcloud.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-right: 7px;
+  }
+  .footer_line_color_content_sites_telegram{
+    width: 25px;
+    height: 25px;
+    background: url(../img//telegram.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-right: 7px;
+  }
+  .footer_line_color_content_text{
+    width: 50px;
+    height: 15px;
+    font-size: 60%;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+}
+
+
+@media only screen and  (min-width: 1024px) and (max-width: 1280px)
+{
+.header{
+    width: 100%;
+    height: 70px;
+  }
+  .header_line{
+    width: 100%;
+    height: 100%;
+  }
+  .header_line_color{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(83,83,83,1) 1%, rgba(0,0,0,1) 10%, rgba(0,0,0,1) 90%, rgba(82,82,82,1) 99%, rgba(255,255,255,1) 100%);
+  }
+  .header_line_color_content{
+    width: 100%;
+    height: 100%; 
+    background-repeat: no-repeat;
+    display: flex;  
+    justify-content: center;
+    padding: 10px 0 10px 0;
+  }
+  .header_line_color_content p{
+    font-family: 'Regular', serif;
+    font-weight: 400;
+    font-size: 300%;
+    color: #fff;  
+    padding-right: 15px;
+  }
+  .header_line_color_content button{
+    display: inline-block;
+    background-color: black;
+    color: #fff; 
+    border: none;
+    padding: 10px 10px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    font-family: 'Regular', serif;
+    font-weight: 400;
+    font-size: 200%;
+    box-shadow: 0 1px #fff;
+  }
+  .header_line_color_content button:hover{
+    color: black;
+    background-color: #fff;
+  }
+  
+
+  .albums{
+    width: 100%;
+    height: 700px;
+  }
+  .albums_line{
+    width: 100%;
+    height: 100%;
+  }
+  .albums_line_color{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(83,83,83,1) 1%, rgba(0,0,0,1) 10%, rgba(0,0,0,1) 90%, rgba(82,82,82,1) 99%, rgba(255,255,255,1) 100%);
+    padding: 10px 0 0 0;
+  }
+  .albums_line_color_content{
+    width: auto;
+    height: 100%;
+    padding-top: 85px;
+  }
+  .albums_line_color_content_music{  
+    width: 600px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .albums_line_color_content_music iframe{
+    width: 100%;
+    height: 500px;
+  }
+
+
+  
+  .footer{
+    width: 100%;
+    height: 130px;
+  }
+  .footer_line{
+    width: 100%;
+    height: 100%;
+  }
+  .footer_line_color{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(83,83,83,1) 1%, rgba(0,0,0,1) 10%, rgba(0,0,0,1) 90%, rgba(82,82,82,1) 99%, rgba(255,255,255,1) 100%);
+    background-repeat: no-repeat;
+  }
+  .footer_line_color_content{
+    width: auto;
+    height: auto;
+
+  }
+  .footer_line_color_content_sites{
+    width: 100px;
+    height: 50px;
+    display: flex;
+    padding-top: 55px;
+    margin-left: auto;
+    margin-left: -500px;
+  }
+  .footer_line_color_content_sites_youtube{
+    width: 25px;
+    height: 25px;
+    background: url(..//img/youtube.png); 
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-right: 7px;
+  }
+  .footer_line_color_content_sites_soundcloud{
+    width: 25px;
+    height: 25px;
+    background: url(../img//soundcloud.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-right: 7px;
+  }
+  .footer_line_color_content_sites_telegram{
+    width: 25px;
+    height: 25px;
+    background: url(../img//telegram.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-right: 7px;
+  }
+  .footer_line_color_content_text{
+    width: 50px;
+    height: 15px;
+    font-size: 60%;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+}
+
+
+@media only screen and  (min-width: 768px) and (max-width: 1042px)
+{
+.header{
+    width: 100%;
+    height: 70px;
+  }
+  .header_line{
+    width: 100%;
+    height: 100%;
+  }
+  .header_line_color{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(83,83,83,1) 1%, rgba(0,0,0,1) 10%, rgba(0,0,0,1) 90%, rgba(82,82,82,1) 99%, rgba(255,255,255,1) 100%);
+  }
+  .header_line_color_content{
+    width: 100%;
+    height: 100%; 
+    background-repeat: no-repeat;
+    display: flex;  
+    justify-content: center;
+    padding: 10px 0 10px 0;
+  }
+  .header_line_color_content p{
+    font-family: 'Regular', serif;
+    font-weight: 400;
+    font-size: 300%;
+    color: #fff;  
+    padding-right: 15px;
+  }
+  .header_line_color_content button{
+    display: inline-block;
+    background-color: black;
+    color: #fff; 
+    border: none;
+    padding: 10px 10px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    font-family: 'Regular', serif;
+    font-weight: 400;
+    font-size: 200%;
+    box-shadow: 0 1px #fff;
+  }
+  .header_line_color_content button:hover{
+    color: black;
+    background-color: #fff;
+  }
+  
+  
+  
+
+  .albums{
+    width: 100%;
+    height: 700px;
+  }
+  .albums_line{
+    width: 100%;
+    height: 100%;
+  }
+  .albums_line_color{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(83,83,83,1) 1%, rgba(0,0,0,1) 10%, rgba(0,0,0,1) 90%, rgba(82,82,82,1) 99%, rgba(255,255,255,1) 100%);
+    padding: 10px 0 0 0;
+  }
+  .albums_line_color_content{
+    width: auto;
+    height: 100%;
+    padding-top: 85px;
+  }
+  .albums_line_color_content_music{  
+    width: 600px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .albums_line_color_content_music iframe{
+    width: 100%;
+    height: 500px;
+  }
+
+
+  
+  .footer{
+    width: 100%;
+    height: 130px;
+  }
+  .footer_line{
+    width: 100%;
+    height: 100%;
+  }
+  .footer_line_color{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(83,83,83,1) 1%, rgba(0,0,0,1) 10%, rgba(0,0,0,1) 90%, rgba(82,82,82,1) 99%, rgba(255,255,255,1) 100%);
+    background-repeat: no-repeat;
+  }
+  .footer_line_color_content{
+    width: auto;
+    height: auto;
+
+  }
+  .footer_line_color_content_sites{
+    width: 100px;
+    height: 50px;
+    display: flex;
+    padding-top: 55px;
+    margin-left: auto;
+    margin-left: -850px;
+  }
+  .footer_line_color_content_sites_youtube{
+    width: 25px;
+    height: 25px;
+    background: url(..//img/youtube.png); 
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-right: 7px;
+  }
+  .footer_line_color_content_sites_soundcloud{
+    width: 25px;
+    height: 25px;
+    background: url(../img//soundcloud.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-right: 7px;
+  }
+  .footer_line_color_content_sites_telegram{
+    width: 25px;
+    height: 25px;
+    background: url(../img//telegram.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-right: 7px;
+  }
+  .footer_line_color_content_text{
+    width: 50px;
+    height: 15px;
+    font-size: 60%;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+}
+
+
+
+
+@media only screen and  (min-width: 480px) and (max-width: 768px)
+{
+.header{
+    width: 100%;
+    height: 50px;
+  }
+  .header_line{
+    width: 100%;
+    height: 100%;
+  }
+  .header_line_color{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(83,83,83,1) 1%, rgba(0,0,0,1) 10%, rgba(0,0,0,1) 90%, rgba(82,82,82,1) 99%, rgba(255,255,255,1) 100%);
+  }
+  .header_line_color_content{
+    width: 100%;
+    height: 100%; 
+    background-repeat: no-repeat;
+    display: flex;  
+    justify-content: center;
+    padding: 10px 0 10px 0;
+  }
+  .header_line_color_content p{
+    font-family: 'Regular', serif;
+    font-weight: 400;
+    font-size: 200%;
+    color: #fff;  
+    padding-right: 15px;
+  }
+  .header_line_color_content button{
+    display: inline-block;
+    background-color: black;
+    color: #fff; 
+    border: none;
+    padding: 10px 10px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    font-family: 'Regular', serif;
+    font-weight: 400;
+    font-size: 100%;
+    box-shadow: 0 1px #fff;
+  }
+  .header_line_color_content button:hover{
+    color: black;
+    background-color: #fff;
+  }
+  
+  
+  
+  .albums{
+    width: 100%;
+    height: 500px;
+  }
+  .albums_line{
+    width: 100%;
+    height: 100%;
+  }
+  .albums_line_color{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(83,83,83,1) 1%, rgba(0,0,0,1) 10%, rgba(0,0,0,1) 90%, rgba(82,82,82,1) 99%, rgba(255,255,255,1) 100%);
+    padding: 10px 0 0 0;
+  }
+  .albums_line_color_content{
+    width: auto;
+    height: 100%;
+    padding-top: 45px;
+  }
+  .albums_line_color_content_music{  
+    width: 300px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .albums_line_color_content_music iframe{
+    width: 100%;
+    height: 400px;
+  }
+
+
+  
+  .footer{
+    width: 100%;
+    height: 100px;
+  }
+  .footer_line{
+    width: 100%;
+    height: 100%;
+  }
+  .footer_line_color{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(83,83,83,1) 1%, rgba(0,0,0,1) 10%, rgba(0,0,0,1) 90%, rgba(82,82,82,1) 99%, rgba(255,255,255,1) 100%);
+    background-repeat: no-repeat;
+  }
+  .footer_line_color_content{
+    width: auto;
+    height: auto;
+
+  }
+  .footer_line_color_content_sites{
+    width: 80px;
+    height: 25px;
+    display: flex;
+    padding-top: 35px;
+    margin-left: auto;
+    margin-left: -1050px;
+  }
+  .footer_line_color_content_sites_youtube{
+    width: 15px;
+    height: 15px;
+    background: url(..//img/youtube.png); 
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-right: 7px;
+  }
+  .footer_line_color_content_sites_soundcloud{
+    width: 15px;
+    height: 15px;
+    background: url(../img//soundcloud.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-right: 7px;
+  }
+  .footer_line_color_content_sites_telegram{
+    width: 15px;
+    height: 15px;
+    background: url(../img//telegram.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-right: 7px;
+  }
+  .footer_line_color_content_text{
+    width: 50px;
+    height: 15px;
+    font-size: 60%;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+}
+
+
+
+
+
+
+
+@media only screen and  (min-width: 320px) and (max-width: 480px)
+{
+.header{
+    width: 100%;
+    height: 40px;
+  }
+  .header_line{
+    width: 100%;
+    height: 100%;
+  }
+  .header_line_color{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(83,83,83,1) 1%, rgba(0,0,0,1) 10%, rgba(0,0,0,1) 90%, rgba(82,82,82,1) 99%, rgba(255,255,255,1) 100%);
+  }
+  .header_line_color_content{
+    width: 100%;
+    height: 100%; 
+    background-repeat: no-repeat;
+    display: flex;  
+    justify-content: center;
+    padding: 10px 0 10px 0;
+  }
+  .header_line_color_content p{
+    font-family: 'Regular', serif;
+    font-weight: 400;
+    font-size: 130%;
+    color: #fff;  
+    padding-right: 15px;
+  }
+  .header_line_color_content button{
+    display: inline-block;
+    background-color: black;
+    color: #fff; 
+    border: none;
+    padding: 3px 3px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    font-family: 'Regular', serif;
+    font-weight: 400;
+    font-size: 80%;
+    box-shadow: 0 1px #fff;
+  }
+  .header_line_color_content button:hover{
+    color: black;
+    background-color: #fff;
+  }
+  
+  
+  
+  .albums{
+    width: 100%;
+    height: 400px;
+  }
+  .albums_line{
+    width: 100%;
+    height: 100%;
+  }
+  .albums_line_color{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(83,83,83,1) 1%, rgba(0,0,0,1) 10%, rgba(0,0,0,1) 90%, rgba(82,82,82,1) 99%, rgba(255,255,255,1) 100%);
+    padding: 10px 0 0 0;
+  }
+  .albums_line_color_content{
+    width: auto;
+    height: 100%;
+    padding-top: 25px;
+  }
+  .albums_line_color_content_music{  
+    width: 200px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .albums_line_color_content_music iframe{
+    width: 100%;
+    height: 250px;
+  }
+
+
+  
+  .footer{
+    width: 100%;
+    height: 100px;
+  }
+  .footer_line{
+    width: 100%;
+    height: 100%;
+  }
+  .footer_line_color{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(83,83,83,1) 1%, rgba(0,0,0,1) 10%, rgba(0,0,0,1) 90%, rgba(82,82,82,1) 99%, rgba(255,255,255,1) 100%);
+    background-repeat: no-repeat;
+  }
+  .footer_line_color_content{
+    width: auto;
+    height: auto;
+
+  }
+  .footer_line_color_content_sites{
+    width: 50px;
+    height: 25px;
+    display: flex;
+    padding-top: 35px;
+    margin-left: auto;
+    margin-left: -1150px;
+  }
+  .footer_line_color_content_sites_youtube{
+    width: 15px;
+    height: 15px;
+    background: url(..//img/youtube.png); 
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-right: 7px;
+  }
+  .footer_line_color_content_sites_soundcloud{
+    width: 15px;
+    height: 15px;
+    background: url(../img//soundcloud.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-right: 7px;
+  }
+  .footer_line_color_content_sites_telegram{
+    width: 15px;
+    height: 15px;
+    background: url(../img//telegram.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-right: 7px;
+  }
+  .footer_line_color_content_text{
+    width: 50px;
+    height: 15px;
+    font-size: 60%;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+}
